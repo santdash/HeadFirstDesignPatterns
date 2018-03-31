@@ -11,7 +11,7 @@ public class PizzaStore {
         this.pizzaFactory = pizzaFactory;
     }
 
-    public Pizza orderPizza(String type){
+    public Pizza orderPizza(String type) throws Exception {
         Pizza pizza = pizzaFactory.createPizza(type);
         pizza.prepare();
         pizza.bake();
