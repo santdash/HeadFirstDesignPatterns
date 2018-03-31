@@ -1,0 +1,14 @@
+Design a remote control api for 7 slot remote control having "On" and "Off" for each slot and global Undo button undo's
+the last action.
+
+Light - On button - Switch ON light.
+Light - Off button - Switch OFF light.
+
+Fan - On button - Switch on Fan (Increase the fan speed, this way repeated on button press can increase the fan speed)
+Fan - Off button - Switch off the fan.
+
+** Now Customer wants TV card to be inserted to one of the slot and the requirement is following.
+TV - On button - Switch On TV if it is off. Otherwise increase volume.
+TV - Off button - Switch off TV if volume is down to lowest, otherwise lower the volume.
+TV - If last action is TV, UNDO button would increase the channel number and start from 1st channel if channel reaches
+     last channel (TV supports only 5 channels).
